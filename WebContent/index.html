@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Form to create a new diary</title>
+ </head>
+<body>
+  <form action="http://localhost:8080/DiaryS/rest/api/newdiary" method="POST">
+  <label for="user_id">user_id</label>
+  <input name="user_id" />
+  <br/>
+  <label for="Diary_title">Diary_title</label>
+  <input name="Diary_title" />
+  <br/>
+  Diary_text:
+  <TEXTAREA NAME="Diary_text" COLS=40 ROWS=6></TEXTAREA>
+  <br/>
+  <input type="submit" value="Submit" />
+  </form>
+</body>
+</html> 
